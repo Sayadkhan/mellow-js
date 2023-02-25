@@ -49,3 +49,7 @@ body {
 .nav-links:hover::after {
   width: 100%;
 }
+
+.options {
+  overflow-x: hidden;
+}

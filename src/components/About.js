@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div className="about container mx-auto">
-      <div className="introdection flex items-center justify-center p-8 flex-col text-justify">
-        <h1 className="text-2xl text-slate-800">About Our Laibary</h1>
+      <div className="introdection flex items-center justify-center px-8 flex-col text-justify">
+        <h1 className="text-2xl text-slate-800 p-12">About Our Laibary</h1>
         <p className="p-8">
           Introducing my new JavaScript library! This innovative tool is
           designed to make web development faster, more efficient, and more
@@ -33,7 +33,7 @@ const About = () => {
       </div>
       <div className="grid grid-cols-3 mx-auto gap-5 text-justify">
         <div className="declarative col-span-1">
-          <h2 className="text-gray-400 p-3 font-medium">Declarative</h2>
+          <h2 className="text-gray-400 px-3 font-medium">Declarative</h2>
           <p>
             React makes it painless to create interactive UIs. Design simple
             views for each state in your application, <br />
@@ -42,7 +42,7 @@ const About = () => {
           </p>
         </div>
         <div className="">
-          <h2 className="text-gray-400 p-3">Component-Based</h2>
+          <h2 className="text-gray-400 px-3">Component-Based</h2>
           <p>
             Build encapsulated components that manage their own state, then
             compose them to make complex UIs. Since component logic is written
@@ -51,7 +51,7 @@ const About = () => {
           </p>
         </div>
         <div className="">
-          <h2 className="text-gray-400 p-3">Learn Once, Write Anywhere</h2>
+          <h2 className="text-gray-400 px-3">Learn Once, Write Anywhere</h2>
           <p>
             We don’t make assumptions about the rest of your technology stack,
             so you can develop new features in React without rewriting existing

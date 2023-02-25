@@ -13,7 +13,7 @@ const Navbar = () => {
           </Link>
           .JS
         </div>
-        <div className="right flex gap-5">
+        <div className="right flex gap-5 ">
           <Link to="/" className="nav-links hover:text-orange-500 duration-300">
             Home
           </Link>
